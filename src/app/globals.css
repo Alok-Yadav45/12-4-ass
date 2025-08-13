@@ -180,9 +180,13 @@ margin-bottom: 20px;
 .categories-list {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .categories-list ul {
+  
   list-style: none;
   padding: 0;
   margin: 0;
